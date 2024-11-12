@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: #f5f1f1;
 }
 
 .sidebar {
@@ -10,7 +10,7 @@ body {
   top: 0;
   width: 200px;
   height: 100%;
-  background-color: rgba(44, 62, 80, 0.8); /* Semi-transparent background */
+  background-color: rgba(147, 176, 208, 0.8); /* Semi-transparent background */
   color: white;
   transition: width 0.3s ease;
   overflow-x: hidden;
@@ -35,7 +35,12 @@ body {
 }
 
 .sidebar-item:hover {
-  background-color: rgba(52, 73, 94, 0.9); /* Slightly more opaque on hover */
+  background-color: rgba(
+    117,
+    146,
+    175,
+    0.9
+  ); /* Slightly more opaque on hover */
 }
 
 .sidebar-icon {
@@ -71,10 +76,12 @@ body {
 
 .toggle-btn:focus {
   outline: none;
+  background-color: #79c97d !important;
 }
 
 /* Arrows and text based on state */
 .toggle-btn.collapsed:before {
+  background-color: #79c97d !important;
   content: "\2190"; /* Left arrow (←) when collapsed */
 }
 

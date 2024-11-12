@@ -7,7 +7,7 @@ const {
 
 // MQTT client configuration
 const options = {
-  host: "192.168.0.105",
+  host: "192.168.0.107",
   port: 1883,
   username: "B21DCCN244",
   password: "123",

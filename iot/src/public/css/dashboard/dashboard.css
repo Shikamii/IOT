@@ -11,7 +11,6 @@
   justify-content: space-around;
   margin: 0 50px;
   padding: 0px;
-  width: 85rem;
 }
 
 .item {
@@ -29,7 +28,7 @@
 /* Container for the chart and device controls */
 .container-2 {
   display: flex;
-  margin: 20px 50px;
+  margin: 80px 50px;
 }
 
 .item-2 {
@@ -39,6 +38,7 @@
 
 .item-3 {
   flex: 1;
+  background-color: white;
 }
 
 /* Styling for the canvas */
@@ -50,7 +50,7 @@
   box-sizing: border-box;
   height: 480px !important;
   width: 853px;
-  padding-left: 50px;
+  margin-left: 88px;
   padding-top: 20px;
 }
 

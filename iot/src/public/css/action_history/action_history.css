@@ -38,6 +38,7 @@ h1 {
   flex-wrap: wrap;
   gap: 20px;
   margin-bottom: 20px; /* Adjusted margin for better spacing */
+  margin-left: 390px;
 }
 
 .search-section,
@@ -75,7 +76,7 @@ h1 {
   font-size: 14px;
   border: none;
   border-radius: 4px;
-  background-color: #4caf50;
+  background-color: #5bd65f;
   color: white;
   cursor: pointer;
   transition: background-color 0.3s ease;

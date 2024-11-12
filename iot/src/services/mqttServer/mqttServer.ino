@@ -26,7 +26,7 @@ bool ledState = LOW;  // Trạng thái hiện tại của đèn nhấp nháy
 // Wi-Fi and MQTT information
 const char* ssid = "T3"; 
 const char* password = "88888888";
-const char* mqtt_server = "192.168.0.105";  // Change this to your MQTT broker IP
+const char* mqtt_server = "192.168.0.107";  // Change this to your MQTT broker IP
 const char* mqtt_username = "B21DCCN244";
 const char* mqtt_password = "123";
 

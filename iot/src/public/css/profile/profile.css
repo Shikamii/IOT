@@ -35,7 +35,7 @@ body {
 .profile-picture {
   display: inline-block;
   position: absolute;
-  bottom: 150px; /* Đặt ảnh đại diện đè lên banner */
+  bottom: -65px; /* Đặt ảnh đại diện đè lên banner */
   overflow: hidden;
   z-index: 10; /* Đảm bảo ảnh đại diện ở trên cùng */
   left: 43.5%;
@@ -43,8 +43,8 @@ body {
 
 .profile-picture img {
   border-radius: 50%;
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   border: 5px solid #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   object-fit: cover;
@@ -53,9 +53,9 @@ body {
 .profile-name {
   font-size: 2em;
   margin: 10px 0;
-  margin-top: 80px; /* Tạo khoảng cách phía trên tên để tránh bị đè */
   font-weight: bold;
   color: #333;
+  text-align: center;
 }
 
 .profile-bio {
@@ -84,10 +84,10 @@ body {
 
 .profile-main {
   background: #fff;
-  padding: 20px;
+  padding: 3px 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin-top: -50px;
+  margin-top: 65px;
 }
 
 .profile-main h2 {
